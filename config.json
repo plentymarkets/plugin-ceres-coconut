@@ -1,0 +1,163 @@
+{
+    "formatVersion": 1,
+    "menu": {
+        "Config.TemplatesTab": {
+            "label": "Config.TemplatesTab",
+            "formFields": {
+                "templates.override": {
+                    "type": "multiCheckBox",
+                    "required": false,
+                    "label": "Config.templatesOverrideLabel",
+                    "options": {
+                        "defaultValue": "",
+                        "checkBoxValues": [
+                            {
+                                "value": "page_design",
+                                "caption": "Config.templatesOverridePossibleValuePageDesign"
+                            },
+                            {
+                                "value": "head",
+                                "caption": "Config.templatesOverridePossibleValueHead"
+                            },
+                            {
+                                "value": "header",
+                                "caption": "Config.templatesOverridePossibleValueHeader"
+                            },
+                            {
+                                "value": "footer",
+                                "caption": "Config.templatesOverridePossibleValueFooter"
+                            },
+                            {
+                                "value": "homepage",
+                                "caption": "Config.templatesOverridePossibleValueHomepage"
+                            },
+                            {
+                                "value": "basket",
+                                "caption": "Config.templatesOverridePossibleValueBasket"
+                            },
+                            {
+                                "value": "checkout",
+                                "caption": "Config.templatesOverridePossibleValueCheckout"
+                            },
+                            {
+                                "value": "order_confirmation",
+                                "caption": "Config.templatesOverridePossibleValueOrderConfirmation"
+                            },
+                            {
+                                "value": "login",
+                                "caption": "Config.templatesOverridePossibleValueLogin"
+                            },
+                            {
+                                "value": "register",
+                                "caption": "Config.templatesOverridePossibleValueRegister"
+                            },
+                            {
+                                "value": "item",
+                                "caption": "Config.templatesOverridePossibleValueItem"
+                            },
+                            {
+                                "value": "category_view",
+                                "caption": "Config.templatesOverridePossibleValueCategoryView"
+                            },
+                            {
+                                "value": "search",
+                                "caption": "Config.templatesOverridePossibleValueSearchView"
+                            },
+                            {
+                                "value": "my_account",
+                                "caption": "Config.templatesOverridePossibleValueMyAccount"
+                            },
+                            {
+                                "value": "wish_list",
+                                "caption": "Config.templatesOverridePossibleValueWishList"
+                            },
+                            {
+                                "value": "contact",
+                                "caption": "Config.templatesOverridePossibleValueContact"
+                            },
+                            {
+                                "value": "order_return",
+                                "caption": "Config.templatesOverridePossibleValueOrderReturn"
+                            },
+                            {
+                                "value": "order_return_confirmation",
+                                "caption": "Config.templatesOverridePossibleValueOrderReturnConfirmation"
+                            },
+                            {
+                                "value": "cancellation_rights",
+                                "caption": "Config.templatesOverridePossibleValueCancellationRights"
+                            },
+                            {
+                                "value": "cancellation_form",
+                                "caption": "Config.templatesOverridePossibleValueCancellationForm"
+                            },
+                            {
+                                "value": "legal_disclosure",
+                                "caption": "Config.templatesOverridePossibleValueLegalDisclosure"
+                            },
+                            {
+                                "value": "privacy_policy",
+                                "caption": "Config.templatesOverridePossibleValuePrivacyPolicy"
+                            },
+                            {
+                                "value": "terms_conditions",
+                                "caption": "Config.templatesOverridePossibleValueTermsConditions"
+                            },
+                            {
+                                "value": "item_not_found",
+                                "caption": "Config.templatesOverridePossibleValueItemNotFound"
+                            },
+                            {
+                                "value": "page_not_found",
+                                "caption": "Config.templatesOverridePossibleValuePageNotFound"
+                            },
+                            {
+                                "value": "newsletter_opt_out",
+                                "caption": "Config.templatesOverridePossibleValueNewsletterOptOut"
+                            },
+                            {
+                                "value": "category_content",
+                                "caption": "Config.templatesOverridePossibleValueCategoryContent"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "Config.ResultFieldsTab": {
+            "label": "Config.ResultFieldsTab",
+            "formFields": {
+                "result_fields.override": {
+                    "type": "multiCheckBox",
+                    "required": false,
+                    "label": "Config.resultFieldsOverrideLabel",
+                    "options": {
+                        "defaultValue": "",
+                        "checkBoxValues": [
+                            {
+                                "value": "auto_complete_list_item",
+                                "caption": "Config.resultFieldsOverridePossibleValueAutoCompleteListItem"
+                            },
+                            {
+                                "value": "basket_item",
+                                "caption": "Config.resultFieldsOverridePossibleValueBasketItem"
+                            },
+                            {
+                                "value": "category_tree",
+                                "caption": "Config.resultFieldsOverridePossibleValueCategoryTree"
+                            },
+                            {
+                                "value": "list_item",
+                                "caption": "Config.resultFieldsOverridePossibleValueListItem"
+                            },
+                            {
+                                "value": "single_item",
+                                "caption": "Config.resultFieldsOverridePossibleValueSingleItem"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
