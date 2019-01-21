@@ -1,6 +1,6 @@
-# Ceres Coconut – Ein Coconut Theme für Ceres
+# Ceres Coconut – Ein Coconut Theme für Ceres 3
 
-**Ceres Coconut** ist ein einfaches Theme-Plugin, welches noch keine Design-Anpassungen für Ceres enthält. Mithilfe des Themes kann eigenes CSS in Ceres angezeigt werden. Zudem können Templates von Ceres durch eigene Templates überschrieben werden.
+**Ceres Coconut** ist ein einfaches Theme-Plugin, welches noch keine Design-Anpassungen für Ceres 3 enthält. Mithilfe des Themes kann eigenes CSS in Ceres angezeigt werden. Zudem können Templates von Ceres durch eigene Templates überschrieben werden.
 
 ## Eigenes CSS anzeigen
 

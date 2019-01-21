@@ -1,5 +1,11 @@
 # Release Notes for CeresCoconut
 
+## v1.0.1 (2019-01-21)
+
+### Fixed
+
+- Some plugin files weren't renamed correctly. This has been fixed.
+
 ## v1.0.0 (2019-01-21)
 
 ### Added

@@ -1,11 +1,11 @@
 {
-    "version"           :   "1.0.0",
+    "version"           :   "1.0.1",
     "name"              :   "CeresCoconut",
     "pluginIcon"        :   "icon_plugin_xs.png",
     "authorIcon"        :   "icon_author_xs.png",
     "email"             :   "sales@plentymarkets.com",
     "phone"             :   "+49 561 98 681 100",
-    "description"       :   "A Coconut theme for Ceres.",
+    "description"       :   "A Coconut theme for Ceres 3.",
     "namespace"         :   "CeresCoconut",
     "author"            :   "plentymarkets GmbH",
     "type"              :   "theme",
