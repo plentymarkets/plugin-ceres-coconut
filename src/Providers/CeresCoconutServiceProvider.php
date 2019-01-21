@@ -327,7 +327,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
 
           $dispatcher->listen( 'IO.ResultFields.AutoCompleteListItem', function(ResultFieldTemplate $templateContainer)
           {
-              $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_AUTOCOMPLETE_ITEM_LIST, 'Ceres::ResultFields.AutoCompleteListItem');
+              $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_AUTOCOMPLETE_ITEM_LIST, 'CeresCoconut::ResultFields.AutoCompleteListItem');
           });
         }
 
@@ -337,7 +337,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
 
           $dispatcher->listen( 'IO.ResultFields.BasketItem', function(ResultFieldTemplate $templateContainer)
           {
-              $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_BASKET_ITEM, 'Ceres::ResultFields.BasketItem');
+              $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_BASKET_ITEM, 'CeresCoconut::ResultFields.BasketItem');
           });
         }
 
@@ -347,7 +347,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
 
           $dispatcher->listen( 'IO.ResultFields.CategoryTree', function(ResultFieldTemplate $templateContainer)
           {
-              $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_CATEGORY_TREE, 'Ceres::ResultFields.CategoryTree');
+              $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_CATEGORY_TREE, 'CeresCoconut::ResultFields.CategoryTree');
           });
         }
 
@@ -357,7 +357,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
 
           $dispatcher->listen( 'IO.ResultFields.ListItem', function(ResultFieldTemplate $templateContainer)
           {
-              $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_LIST_ITEM, 'Ceres::ResultFields.ListItem');
+              $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_LIST_ITEM, 'CeresCoconut::ResultFields.ListItem');
           });
         }
 
@@ -367,7 +367,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
 
           $dispatcher->listen( 'IO.ResultFields.SingleItem', function(ResultFieldTemplate $templateContainer)
           {
-              $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_SINGLE_ITEM, 'Ceres::ResultFields.SingleItem');
+              $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_SINGLE_ITEM, 'CeresCoconut::ResultFields.SingleItem');
           });
         }
     }

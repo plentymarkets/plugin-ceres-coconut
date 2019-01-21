@@ -1,5 +1,11 @@
 # Release Notes for CeresCoconut
 
+## v1.0.3 (2019-01-21)
+
+### Fixed
+
+- Due to an error, result fields weren't loaded correctly from CeresCoconut. This has been fixed.
+
 ## v1.0.2 (2019-01-21)
 
 ### Fixed
