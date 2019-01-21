@@ -319,8 +319,10 @@ class CeresCoconutServiceProvider extends ServiceProvider
             }, self::PRIORITY);
         }
 
+        $enabledResultFields = explode(", ", $config->get("CeresCoconut.result_fields.override"));
+
         // Override auto complete list item result fields
-        if (in_array("auto_complete_list_item", $enabledOverrides) || in_array("all", $enabledOverrides))
+        if (in_array("auto_complete_list_item", $enabledResultFields) || in_array("all", $enabledResultFields))
         {
 
           $dispatcher->listen( 'IO.ResultFields.AutoCompleteListItem', function(ResultFieldTemplate $templateContainer)
@@ -330,7 +332,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
         }
 
         // Override basket item result fields
-        if (in_array("basket_item", $enabledOverrides) || in_array("all", $enabledOverrides))
+        if (in_array("basket_item", $enabledResultFields) || in_array("all", $enabledResultFields))
         {
 
           $dispatcher->listen( 'IO.ResultFields.BasketItem', function(ResultFieldTemplate $templateContainer)
@@ -340,7 +342,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
         }
 
         // Override category tree result fields
-        if (in_array("category_tree", $enabledOverrides) || in_array("all", $enabledOverrides))
+        if (in_array("category_tree", $enabledResultFields) || in_array("all", $enabledResultFields))
         {
 
           $dispatcher->listen( 'IO.ResultFields.CategoryTree', function(ResultFieldTemplate $templateContainer)
@@ -350,7 +352,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
         }
 
         // Override list item result fields
-        if (in_array("list_item", $enabledOverrides) || in_array("all", $enabledOverrides))
+        if (in_array("list_item", $enabledResultFields) || in_array("all", $enabledResultFields))
         {
 
           $dispatcher->listen( 'IO.ResultFields.ListItem', function(ResultFieldTemplate $templateContainer)
@@ -360,7 +362,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
         }
 
         // Override single item view result fields
-        if (in_array("single_item", $enabledOverrides) || in_array("all", $enabledOverrides))
+        if (in_array("single_item", $enabledResultFields) || in_array("all", $enabledResultFields))
         {
 
           $dispatcher->listen( 'IO.ResultFields.SingleItem', function(ResultFieldTemplate $templateContainer)
