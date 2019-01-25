@@ -1,5 +1,11 @@
 # Release Notes for CeresCoconut
 
+## v1.0.4 (2019-01-25)
+
+### Added
+
+- We added the templates **SingleItem_Details.twig** and **SingleItem_InformationTable.twig**.
+
 ## v1.0.3 (2019-01-21)
 
 ### Fixed
