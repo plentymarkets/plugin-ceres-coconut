@@ -2,6 +2,10 @@
 
 ## v1.0.4 (2019-01-25)
 
+### TODO
+
+- Sichere alle Änderungen, die in CeresCoconut vorgenommen wurden, bevor das Update eingespielt wird. Alle Änderungen werden beim Update-Prozess zurückgesetzt.
+
 ### Hinzugefügt
 
 - Wir haben die Templates **SingleItem_Details.twig** und **SingleItem_InformationTable.twig** hinzugefügt.
