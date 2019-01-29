@@ -1,5 +1,15 @@
 # Release Notes für CeresCoconut
 
+## v1.0.5 (2019-01-29)
+
+### TODO
+
+- Sichere alle Änderungen, die in CeresCoconut vorgenommen wurden, bevor das Update eingespielt wird. Alle Änderungen werden beim Update-Prozess zurückgesetzt.
+
+### Hinzugefügt
+
+- Durch einen Fehler wurden die Result Fields nicht korrekt überschrieben. Dies wurde behoben.
+
 ## v1.0.4 (2019-01-25)
 
 ### TODO

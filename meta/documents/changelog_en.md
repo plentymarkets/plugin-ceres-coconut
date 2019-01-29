@@ -1,5 +1,15 @@
 # Release Notes for CeresCoconut
 
+## v1.0.5 (2019-01-29)
+
+### TODO
+
+- Please save all changes made to CeresCoconut before executing the update. All changes will be reset during the update process.
+
+### Fixed
+
+- Due to an error, result fields weren't overridden correctly. This has been fixed.
+
 ## v1.0.4 (2019-01-25)
 
 ### TODO

@@ -328,6 +328,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
           $dispatcher->listen( 'IO.ResultFields.AutoCompleteListItem', function(ResultFieldTemplate $templateContainer)
           {
               $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_AUTOCOMPLETE_ITEM_LIST, 'CeresCoconut::ResultFields.AutoCompleteListItem');
+              return false;
           });
         }
 
@@ -338,6 +339,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
           $dispatcher->listen( 'IO.ResultFields.BasketItem', function(ResultFieldTemplate $templateContainer)
           {
               $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_BASKET_ITEM, 'CeresCoconut::ResultFields.BasketItem');
+              return false;
           });
         }
 
@@ -348,6 +350,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
           $dispatcher->listen( 'IO.ResultFields.CategoryTree', function(ResultFieldTemplate $templateContainer)
           {
               $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_CATEGORY_TREE, 'CeresCoconut::ResultFields.CategoryTree');
+              return false;
           });
         }
 
@@ -358,6 +361,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
           $dispatcher->listen( 'IO.ResultFields.ListItem', function(ResultFieldTemplate $templateContainer)
           {
               $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_LIST_ITEM, 'CeresCoconut::ResultFields.ListItem');
+              return false;
           });
         }
 
@@ -368,6 +372,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
           $dispatcher->listen( 'IO.ResultFields.SingleItem', function(ResultFieldTemplate $templateContainer)
           {
               $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_SINGLE_ITEM, 'CeresCoconut::ResultFields.SingleItem');
+              return false;
           });
         }
     }
