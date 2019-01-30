@@ -6,6 +6,10 @@
 
 - Please save all changes made to CeresCoconut before executing the update. All changes will be reset during the update process.
 
+### Added
+
+- We added the language files **Template.properties** for DE and EN.
+
 ### Fixed
 
 - Due to an error, result fields weren't overridden correctly. This has been fixed.

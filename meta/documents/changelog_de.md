@@ -8,6 +8,10 @@
 
 ### Hinzugefügt
 
+- Wir haben die Sprachdateien **Template.properties** für DE und EN hinzugefügt.
+
+### Behoben
+
 - Durch einen Fehler wurden die Result Fields nicht korrekt überschrieben. Dies wurde behoben.
 
 ## v1.0.4 (2019-01-25)
