@@ -116,7 +116,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
 
             $dispatcher->listen('IO.tpl.checkout', function (TemplateContainer $container)
             {
-                $container->setTemplate('CeresCoconut::Checkout.Checkout');
+                $container->setTemplate('CeresCoconut::Checkout.CheckoutView');
                 return false;
             }, self::PRIORITY);
         }
@@ -182,7 +182,7 @@ class CeresCoconutServiceProvider extends ServiceProvider
 
             $dispatcher->listen('IO.tpl.my-account', function (TemplateContainer $container)
             {
-                $container->setTemplate('CeresCoconut::MyAccount.MyAccount');
+                $container->setTemplate('CeresCoconut::MyAccount.MyAccountView');
                 return false;
             }, self::PRIORITY);
         }
