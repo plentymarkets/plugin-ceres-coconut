@@ -10,7 +10,7 @@
     "author"            :   "plentysystems AG",
     "type"              :   "theme",
     "require"           :   {
-                                "Ceres":"~3.0"
+                                "Ceres":">= 3.0.0"
                             },
     "serviceProvider"   :   "CeresCoconut\\Providers\\CeresCoconutServiceProvider",
     "dataProviders"     :
