@@ -2,6 +2,10 @@
 
 ## v1.0.7 (2019-05-02)
 
+### TODO
+
+- Sichere alle Änderungen, die in CeresCoconut vorgenommen wurden, bevor du das Plugin aktualisierst. Alle Änderungen werden beim Update-Prozess zurückgesetzt.
+
 ### Behoben
 
 - Die Kompatibilität zu Ceres 4.0.0 wurde hergestellt.
