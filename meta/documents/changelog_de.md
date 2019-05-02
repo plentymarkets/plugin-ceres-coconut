@@ -1,5 +1,11 @@
 # Release Notes für CeresCoconut
 
+## v1.0.7 (2019-05-02)
+
+### Behoben
+
+- Die Kompatibilität zu Ceres 4.0.0 wurde hergestellt.
+
 ## v1.0.6 (2019-01-30)
 
 ### TODO

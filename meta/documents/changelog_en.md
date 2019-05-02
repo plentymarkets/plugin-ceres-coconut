@@ -1,5 +1,11 @@
 # Release Notes for CeresCoconut
 
+## v1.0.7 (2019-05-02)
+
+### Fixed
+
+- Make plugin compatible with Ceres 4.0.0.
+
 ## v1.0.6 (2019-01-30)
 
 ### TODO
