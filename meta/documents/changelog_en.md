@@ -2,9 +2,13 @@
 
 ## v1.0.7 (2019-05-02)
 
+### TODO
+
+- Please save all changes made to CeresCoconut before executing the update. All changes will be reset during the update process.
+
 ### Fixed
 
-- Make plugin compatible with Ceres 4.0.0.
+- CeresCoconut is now compatible with Ceres 4.0.0.
 
 ## v1.0.6 (2019-01-30)
 
