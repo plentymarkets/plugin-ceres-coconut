@@ -2,7 +2,7 @@
 
 namespace CeresCoconut\Providers;
 
-use Plenty\Plugin\ServiceProvider;
+use Plenty\Modules\Webshop\Template\Providers\TemplateServiceProvider;
 use Plenty\Plugin\Events\Dispatcher;
 use Plenty\Plugin\Templates\Twig;
 use IO\Helper\TemplateContainer;
@@ -15,13 +15,13 @@ use Plenty\Plugin\ConfigRepository;
  * Class CeresCoconutServiceProvider
  * @package CeresCoconut\Providers
  */
-class CeresCoconutServiceProvider extends ServiceProvider
+class CeresCoconutServiceProvider extends TemplateServiceProvider
 {
     const PRIORITY = 0;
 
     public function register()
     {
-
+        $this->overrideTemplate('Ceres::Widgets.Common.TextWidget', 'CeresCoconut::Widgets.TextWidget');
     }
 
     public function boot(Twig $twig, Dispatcher $dispatcher, ConfigRepository $config)
